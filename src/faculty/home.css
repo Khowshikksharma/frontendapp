@@ -1,0 +1,135 @@
+
+.framee-1{
+    top: 5px;
+    left: 3px;
+    width: 1285px;
+    height: 523px;
+    position: absolute;
+    background-color: #ffffff;
+    
+  }
+  
+  .Img1{
+    top: 40px;
+    left: 73px;
+    position: absolute;
+    height: 190px;
+    width: 190px;
+  }
+  
+  .framee-2{
+    top: 10px;
+    left: 273px;
+    width: 895px;
+    height: 210px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #AAA6A6;
+  }
+
+  .image-2-1{
+    top: 23px;
+    left: 25px;
+    width: 145px;
+    height: 140px;
+    position: absolute;
+  }
+
+  .framee-2-1{
+    top: 17px;
+    left: 103px;
+    width: 195px;
+    height: 190px;
+    border-radius: 60px;
+    position: absolute;
+    background-color: #838383;
+  }
+
+  .framee-3{
+    top: 233px;
+    left: 23px;
+    width: 1237px;
+    height: 270px;
+    /* border-radius: 20px; */
+    position: absolute;
+    background-color: #AAA6A6;  
+  }
+  .framee-4{
+    top: 260px;
+    left: 565px;
+    width: 455px;
+    height: 190px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #AAA6A6;
+  }
+  .framee-5{
+    top: 5px;
+    left: 2px;
+    width: 1265px;
+    height: 510px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #AAA6A6;
+  }
+
+  .img-1{
+    top: 5px;
+    left: 2px;
+    width: px;
+    height: 510px;
+    position: absolute;
+  }
+
+  .location-name{
+    top:44px;
+    left:35px;
+    width: px;
+    height: 510px;
+    position: absolute;
+  }.location-details{
+    top:20px;
+    left:335px;
+    width: px;
+    text-align: left;
+    height: 510px;
+    position: absolute;
+  }
+
+  .location-name-1{
+    top:54px;
+    left:55px;
+    width: px;
+    height: 510px;
+    position: absolute;
+  }.location-details-1{
+    top:20px;
+    left:435px;
+    width: px;
+    text-align: left;
+    height: 510px;
+    position: absolute;
+  }
+
+  
+  .image-2-2{
+    top: 163px;
+    left: 225px;
+    width: 145px;
+    height: 140px;
+    position: absolute;
+  }
+  .image-2-3{
+    top: 163px;
+    left: 525px;
+    width: 145px;
+    height: 140px;
+    position: absolute;
+  }
+  .image-2-4{
+    top: 163px;
+    left: 825px;
+    width: 145px;
+    height: 140px;
+    position: absolute;
+  }

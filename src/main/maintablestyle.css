@@ -1,0 +1,89 @@
+body {
+  font-family: 'lato', sans-serif;
+}
+
+.containers-21 {
+  max-width: 10000px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+h2 small {
+  font-size: 0.5em;
+}
+
+.responsive-table21 li {
+  border-radius: 3px;
+  padding: 25px 30px;
+  width: 923px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.responsive-table21 .table-header21 {
+  background-color: #95A5A6;
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.responsive-table21 .table-row21 {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-table21 .col-1 {
+  flex-basis: 10%;
+}
+
+.responsive-table21 .col-2 {
+  flex-basis: 40%;
+}
+
+.responsive-table21 .col-3 {
+  flex-basis: 25%;
+}
+
+.responsive-table21 .col-4 {
+  flex-basis: 25%;
+}
+
+.responsive-table21 .col-5 {
+  flex-basis: 25%;
+}
+
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+
+  .responsive-table21 .table-row {
+    font-size: 9px;
+  }
+
+  .responsive-table21 li {
+    display: block;
+  }
+
+  .responsive-table21 .col {
+    flex-basis: 100%;
+    display: flex;
+    padding: 10px 90px;
+  }
+
+  .responsive-table21 .col:before {
+    color: #6C7A89;
+    padding-right: 60px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}

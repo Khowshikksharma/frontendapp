@@ -1,0 +1,207 @@
+.container {
+  margin: 5% 3%;
+}
+
+
+.responsive-table {
+  width: 100%;
+  margin-bottom: 1.5em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 45px;
+  font-size: 0.9em;
+  font-size: 1em;
+}
+
+.responsive-table thead th {
+  
+  background-color: #827A7A;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  
+}
+.responsive-table thead th:first-of-type {
+  text-align: left;
+}
+.responsive-table tbody,
+.responsive-table tr,
+.responsive-table th,
+.responsive-table td {
+  display: block;
+  padding: 0;
+  text-align: left;
+  white-space: normal;
+}
+  .responsive-table tr {
+    display: table-row;
+  }
+
+.responsive-table th,
+.responsive-table td {
+  padding: 0.5em;
+  vertical-align: middle;
+}
+  .responsive-table th,
+.responsive-table td {
+    padding: 0.75em 0.5em;
+  }
+
+@media (min-width: 48em) {
+  .responsive-table th,
+.responsive-table td {
+    display: table-cell;
+    padding: 0.5em;
+  }
+}
+@media (min-width: 62em) {
+  .responsive-table th,
+.responsive-table td {
+    padding: 0.75em 0.5em;
+  }
+}
+@media (min-width: 75em) {
+  .responsive-table th,
+.responsive-table td {
+    padding: 0.75em;
+  }
+}
+.responsive-table caption {
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+@media (min-width: 48em) {
+  .responsive-table caption {
+    font-size: 1.5em;
+  }
+}
+.responsive-table tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+}
+@media (min-width: 62em) {
+  .responsive-table tfoot {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 48em) {
+  .responsive-table tbody {
+    display: table-row-group;
+    
+  }
+}
+.responsive-table tbody tr {
+  margin-bottom: 1em;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody tr {
+    display: table-row;
+    border-width: 1px;
+  }
+}
+.responsive-table tbody tr:last-of-type {
+  margin-bottom: 0;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody tr:nth-of-type(even) {
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+}
+.responsive-table tbody th[scope=row] {
+  background-color: #000000;
+  color: white;
+}
+@media (min-width: 30em) {
+  .responsive-table tbody th[scope=row] {
+    border-left: 1px solid #4f4f4f;
+    border-bottom: 1px solid #63675d;
+  }
+}
+@media (min-width: 48em) {
+  .responsive-table tbody th[scope=row] {
+    background-color: transparent;
+    color: #000001;
+    text-align: left;
+  }
+}
+.responsive-table tbody td {
+  text-align: right;
+}
+@media (min-width: 48em) {
+  .responsive-table tbody td {
+    border-left: 1px solid #7e807b;
+    border-bottom: 1px solid #8c8c8c;
+    text-align: center;
+  }
+}
+@media (min-width: 48em) {
+  .responsive-table tbody td:last-of-type {
+    border-right: 1px solid #8a8a8a;
+  }
+}
+.responsive-table tbody td[data-type=currency] {
+  text-align: right;
+}
+.responsive-table tbody td[data-title]:before {
+  content: attr(data-title);
+  float: left;
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.54);
+}
+@media (min-width: 30em) {
+  .responsive-table tbody td[data-title]:before {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 48em) {
+  .responsive-table tbody td[data-title]:before {
+    content: none;
+  }
+}
+
+/* Additional styles for your table */
+.tabel1 th,
+.tabel1 td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.tabel1 th {
+  background-color: #f2f2f2;
+}
+
+.tabel1 tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabel1 tr:hover {
+  background-color: #dddddd;
+}
+
+.button100 {
+  background-color: #fe0000;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button100:hover {
+  background-color: #bc1717;
+}
+.button99 {
+  background-color: #ffffff;
+  color: rgb(41, 40, 40);
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button99:hover {
+  color: rgb(239, 239, 239);
+  background-color: #5a5959;
+}

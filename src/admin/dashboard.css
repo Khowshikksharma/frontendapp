@@ -1,0 +1,47 @@
+.framee1{
+    top: 10px;
+    left: 43px;
+    width: 1195px;
+    height: 505px;
+    position: absolute;
+    background-color: #838383;
+  
+  }
+  
+  .Img1{
+    top: 40px;
+    left: 73px;
+    position: absolute;
+    height: 190px;
+    width: 190px;
+  }
+  
+  .framee2{
+    top: 40px;
+    left: 273px;
+    width: 795px;
+    height: 190px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #AAA6A6;
+  
+  }
+  .framee3{
+    top: 260px;
+    left: 93px;
+    width: 455px;
+    height: 190px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: #AAA6A6;  
+  }
+  .framee4{
+    top: 260px;
+    left: 565px;
+    width: 455px;
+    height: 190px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #AAA6A6;
+  
+  }
